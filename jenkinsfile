@@ -10,7 +10,7 @@ node {
 
  stage 'Gulp'
 {
- gulp minify
- gulp style
+ gulp minify;
+ gulp style;
 }
 } 

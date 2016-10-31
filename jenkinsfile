@@ -9,8 +9,7 @@ node {
  npm install
 
  stage 'Gulp'
-{
+
  gulp minify;
  gulp style;
-}
 } 

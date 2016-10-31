@@ -1,15 +1,12 @@
 #!groovy
 node {
-    stage 'Checkout'
+	stage 'Checkout'
+    	checkout scm 
 
-    checkout scm 
+ 	stage 'Update dependencies'
+ 	sh 'npm install'
 
- stage 'Update dependencies'
-
- npm install
-
- stage 'Gulp'
-
- gulp minify;
- gulp style;
+ 	stage 'Gulp'
+ 	sh 'gulp minify'
+ 	sh 'gulp style'
 } 

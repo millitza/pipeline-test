@@ -1,0 +1,15 @@
+node_modules
+/dist
+/coverage
+/build
+/bin
+/routes
+
+
+.tmp
+.sass-cache
+.idea
+bower_components
+.DS_Store
+stats.json
+npm-debug.log

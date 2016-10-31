@@ -8,6 +8,7 @@ node {
 	bat 'npm install'
 
 	stage 'Gulp'
+	bat 'npm install -g gulp'
 	bat 'gulp minify'
 	bat 'gulp style'
 } 

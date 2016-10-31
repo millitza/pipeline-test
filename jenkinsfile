@@ -6,9 +6,9 @@ env.PATH = "${nodeHome}/bin:${env.PATH}"
 	checkout scm 
 
  	stage 'Update dependencies'
-	sh 'npm install'
+	bat 'npm install'
 
 	stage 'Gulp'
-	sh 'gulp minify'
-	sh 'gulp style'
+	bat 'gulp minify'
+	bat 'gulp style'
 } 

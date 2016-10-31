@@ -8,6 +8,6 @@ node {
 	bat 'npm install'
 
 	stage 'Gulp'
-	bat 'node node_modules\gulp\bin\gulp.js minify'
-	bat 'node node_modules\gulp\bin\gulp.js style'
+	bat 'node node_modules/gulp/bin/gulp.js minify'
+	bat 'node node_modules/gulp/bin/gulp.js style'
 } 
